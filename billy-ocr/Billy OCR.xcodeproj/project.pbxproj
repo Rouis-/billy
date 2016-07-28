@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661C5AD91D42161600711CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661C5AD81D42161600711CD5 /* main.m */; };
+		661C5ADC1D42161700711CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661C5ADB1D42161700711CD5 /* AppDelegate.m */; };
+		661C5AE21D42161700711CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661C5AE01D42161700711CD5 /* Main.storyboard */; };
+		661C5AE51D42161700711CD5 /* Billy_OCR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 661C5AE31D42161700711CD5 /* Billy_OCR.xcdatamodeld */; };
+		661C5AE71D42161700711CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661C5AE61D42161700711CD5 /* Assets.xcassets */; };
+		661C5AEA1D42161700711CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661C5AE81D42161700711CD5 /* LaunchScreen.storyboard */; };
+		661C5AF51D42161900711CD5 /* Billy_OCRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661C5AF41D42161900711CD5 /* Billy_OCRTests.m */; };
+		661C5B001D42161900711CD5 /* Billy_OCRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661C5AFF1D42161900711CD5 /* Billy_OCRUITests.m */; };
+		7D93745756447D4F183F76CB /* libPods-Billy OCR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7C22D608491D7DF910B228 /* libPods-Billy OCR.a */; };
+		99EFEF401D479A540095176A /* AnalyseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EFEF3F1D479A540095176A /* AnalyseViewController.m */; };
+		A54790271D4A50240087D55D /* IPDFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54790261D4A50240087D55D /* IPDFCameraViewController.m */; };
+		CF438FA10EA26FFEDBD4BF10 /* libPods-Billy OCRUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E6021DF1932442C0C58D4C /* libPods-Billy OCRUITests.a */; };
+		EB30479C5E60593776C1C047 /* libPods-Billy OCRTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C39F302C5AEADD05940CE3B2 /* libPods-Billy OCRTests.a */; };
+		FF3C97CA1D42311200495C83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3C97C91D42311200495C83 /* ViewController.m */; };
+		FF40D6561D42747D00F87C92 /* ConnectionMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D6551D42747D00F87C92 /* ConnectionMenuViewController.m */; };
+		FF40D6591D42780200F87C92 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D6581D42780200F87C92 /* SignupViewController.m */; };
+		FF40D65F1D42790C00F87C92 /* SigninDolibarrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D65E1D42790C00F87C92 /* SigninDolibarrViewController.m */; };
+		FF40D6651D427F6900F87C92 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D6641D427F6900F87C92 /* ScanViewController.m */; };
+		FF40D66B1D42824200F87C92 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D66A1D42824200F87C92 /* SigninViewController.m */; };
+		FF40D6711D4284C500F87C92 /* ImportMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D6701D4284C500F87C92 /* ImportMenuViewController.m */; };
+		FF40D6741D42865A00F87C92 /* VerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D6731D42865A00F87C92 /* VerificationViewController.m */; };
+		FF40D67A1D42877D00F87C92 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D6791D42877D00F87C92 /* ShareViewController.m */; };
+		FF40D6801D4288D200F87C92 /* ShowXlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF40D67F1D4288D200F87C92 /* ShowXlsViewController.m */; };
+		FF40D6831D42A79F00F87C92 /* Purchase Order-96.png in Resources */ = {isa = PBXBuildFile; fileRef = FF40D6821D42A79F00F87C92 /* Purchase Order-96.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		661C5AF11D42161900711CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 661C5ACC1D42161500711CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661C5AD31D42161500711CD5;
+			remoteInfo = "Billy OCR";
+		};
+		661C5AFC1D42161900711CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 661C5ACC1D42161500711CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661C5AD31D42161500711CD5;
+			remoteInfo = "Billy OCR";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		304856EA6A4E5DCE5A45EE24 /* Pods-Billy OCRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billy OCRTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Billy OCRTests/Pods-Billy OCRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C521CD9263FE2A3015B2E49 /* Pods-Billy OCRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billy OCRUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Billy OCRUITests/Pods-Billy OCRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0B57B748CB36EE0FF9030A /* Pods-Billy OCRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billy OCRUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Billy OCRUITests/Pods-Billy OCRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		661C5AD41D42161500711CD5 /* Billy OCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Billy OCR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661C5AD81D42161600711CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661C5ADA1D42161700711CD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		661C5ADB1D42161700711CD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		661C5AE11D42161700711CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		661C5AE41D42161700711CD5 /* Billy_OCR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Billy_OCR.xcdatamodel; sourceTree = "<group>"; };
+		661C5AE61D42161700711CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661C5AE91D42161700711CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		661C5AEB1D42161900711CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661C5AF01D42161900711CD5 /* Billy OCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billy OCRTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661C5AF41D42161900711CD5 /* Billy_OCRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Billy_OCRTests.m; sourceTree = "<group>"; };
+		661C5AF61D42161900711CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661C5AFB1D42161900711CD5 /* Billy OCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Billy OCRUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661C5AFF1D42161900711CD5 /* Billy_OCRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Billy_OCRUITests.m; sourceTree = "<group>"; };
+		661C5B011D42161900711CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8112EC26B92228FD5C69F98B /* Pods-Billy OCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billy OCR.release.xcconfig"; path = "Pods/Target Support Files/Pods-Billy OCR/Pods-Billy OCR.release.xcconfig"; sourceTree = "<group>"; };
+		967634FDA24ED33D40BA68FF /* Pods-Billy OCRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billy OCRTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Billy OCRTests/Pods-Billy OCRTests.release.xcconfig"; sourceTree = "<group>"; };
+		99EFEF3E1D479A540095176A /* AnalyseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyseViewController.h; sourceTree = "<group>"; };
+		99EFEF3F1D479A540095176A /* AnalyseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyseViewController.m; sourceTree = "<group>"; };
+		A54790251D4A50240087D55D /* IPDFCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPDFCameraViewController.h; path = "../../IPDFCameraViewController-master/IPDFCameraViewController/IPDFCameraViewController.h"; sourceTree = "<group>"; };
+		A54790261D4A50240087D55D /* IPDFCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPDFCameraViewController.m; path = "../../IPDFCameraViewController-master/IPDFCameraViewController/IPDFCameraViewController.m"; sourceTree = "<group>"; };
+		BB592F170E9C0E52718FD4AA /* Pods-Billy OCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billy OCR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Billy OCR/Pods-Billy OCR.debug.xcconfig"; sourceTree = "<group>"; };
+		C39F302C5AEADD05940CE3B2 /* libPods-Billy OCRTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Billy OCRTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E6021DF1932442C0C58D4C /* libPods-Billy OCRUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Billy OCRUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3C97C81D42311200495C83 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF3C97C91D42311200495C83 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF40D6541D42747D00F87C92 /* ConnectionMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionMenuViewController.h; sourceTree = "<group>"; };
+		FF40D6551D42747D00F87C92 /* ConnectionMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionMenuViewController.m; sourceTree = "<group>"; };
+		FF40D6571D42780200F87C92 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		FF40D6581D42780200F87C92 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		FF40D65D1D42790C00F87C92 /* SigninDolibarrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigninDolibarrViewController.h; sourceTree = "<group>"; };
+		FF40D65E1D42790C00F87C92 /* SigninDolibarrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninDolibarrViewController.m; sourceTree = "<group>"; };
+		FF40D6631D427F6900F87C92 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		FF40D6641D427F6900F87C92 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		FF40D6691D42824200F87C92 /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigninViewController.h; sourceTree = "<group>"; };
+		FF40D66A1D42824200F87C92 /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = "<group>"; };
+		FF40D66F1D4284C500F87C92 /* ImportMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImportMenuViewController.h; sourceTree = "<group>"; };
+		FF40D6701D4284C500F87C92 /* ImportMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImportMenuViewController.m; sourceTree = "<group>"; };
+		FF40D6721D42865A00F87C92 /* VerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationViewController.h; sourceTree = "<group>"; };
+		FF40D6731D42865A00F87C92 /* VerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationViewController.m; sourceTree = "<group>"; };
+		FF40D6781D42877D00F87C92 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		FF40D6791D42877D00F87C92 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		FF40D67E1D4288D200F87C92 /* ShowXlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowXlsViewController.h; sourceTree = "<group>"; };
+		FF40D67F1D4288D200F87C92 /* ShowXlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowXlsViewController.m; sourceTree = "<group>"; };
+		FF40D6821D42A79F00F87C92 /* Purchase Order-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Purchase Order-96.png"; sourceTree = "<group>"; };
+		FF7C22D608491D7DF910B228 /* libPods-Billy OCR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Billy OCR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661C5AD11D42161500711CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D93745756447D4F183F76CB /* libPods-Billy OCR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661C5AED1D42161900711CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB30479C5E60593776C1C047 /* libPods-Billy OCRTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661C5AF81D42161900711CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF438FA10EA26FFEDBD4BF10 /* libPods-Billy OCRUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A0497E527CBFDB497D93F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7C22D608491D7DF910B228 /* libPods-Billy OCR.a */,
+				C39F302C5AEADD05940CE3B2 /* libPods-Billy OCRTests.a */,
+				F3E6021DF1932442C0C58D4C /* libPods-Billy OCRUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34C8D1766F93F59F275D7626 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB592F170E9C0E52718FD4AA /* Pods-Billy OCR.debug.xcconfig */,
+				8112EC26B92228FD5C69F98B /* Pods-Billy OCR.release.xcconfig */,
+				304856EA6A4E5DCE5A45EE24 /* Pods-Billy OCRTests.debug.xcconfig */,
+				967634FDA24ED33D40BA68FF /* Pods-Billy OCRTests.release.xcconfig */,
+				4C521CD9263FE2A3015B2E49 /* Pods-Billy OCRUITests.debug.xcconfig */,
+				5A0B57B748CB36EE0FF9030A /* Pods-Billy OCRUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		661C5ACB1D42161500711CD5 = {
+			isa = PBXGroup;
+			children = (
+				661C5AD61D42161500711CD5 /* Billy OCR */,
+				661C5AF31D42161900711CD5 /* Billy OCRTests */,
+				661C5AFE1D42161900711CD5 /* Billy OCRUITests */,
+				661C5AD51D42161500711CD5 /* Products */,
+				34C8D1766F93F59F275D7626 /* Pods */,
+				1A0497E527CBFDB497D93F89 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		661C5AD51D42161500711CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661C5AD41D42161500711CD5 /* Billy OCR.app */,
+				661C5AF01D42161900711CD5 /* Billy OCRTests.xctest */,
+				661C5AFB1D42161900711CD5 /* Billy OCRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661C5AD61D42161500711CD5 /* Billy OCR */ = {
+			isa = PBXGroup;
+			children = (
+				A54790251D4A50240087D55D /* IPDFCameraViewController.h */,
+				A54790261D4A50240087D55D /* IPDFCameraViewController.m */,
+				FF40D6811D42A5A300F87C92 /* Images */,
+				99EFEF3E1D479A540095176A /* AnalyseViewController.h */,
+				99EFEF3F1D479A540095176A /* AnalyseViewController.m */,
+				661C5ADA1D42161700711CD5 /* AppDelegate.h */,
+				661C5ADB1D42161700711CD5 /* AppDelegate.m */,
+				FF40D6541D42747D00F87C92 /* ConnectionMenuViewController.h */,
+				FF40D6551D42747D00F87C92 /* ConnectionMenuViewController.m */,
+				FF40D66F1D4284C500F87C92 /* ImportMenuViewController.h */,
+				FF40D6701D4284C500F87C92 /* ImportMenuViewController.m */,
+				FF40D6631D427F6900F87C92 /* ScanViewController.h */,
+				FF40D6641D427F6900F87C92 /* ScanViewController.m */,
+				FF40D6781D42877D00F87C92 /* ShareViewController.h */,
+				FF40D6791D42877D00F87C92 /* ShareViewController.m */,
+				FF40D67E1D4288D200F87C92 /* ShowXlsViewController.h */,
+				FF40D67F1D4288D200F87C92 /* ShowXlsViewController.m */,
+				FF40D6691D42824200F87C92 /* SigninViewController.h */,
+				FF40D66A1D42824200F87C92 /* SigninViewController.m */,
+				FF40D65D1D42790C00F87C92 /* SigninDolibarrViewController.h */,
+				FF40D65E1D42790C00F87C92 /* SigninDolibarrViewController.m */,
+				FF40D6571D42780200F87C92 /* SignupViewController.h */,
+				FF40D6581D42780200F87C92 /* SignupViewController.m */,
+				FF40D6721D42865A00F87C92 /* VerificationViewController.h */,
+				FF40D6731D42865A00F87C92 /* VerificationViewController.m */,
+				FF3C97C81D42311200495C83 /* ViewController.h */,
+				FF3C97C91D42311200495C83 /* ViewController.m */,
+				661C5AE01D42161700711CD5 /* Main.storyboard */,
+				661C5AE61D42161700711CD5 /* Assets.xcassets */,
+				661C5AE81D42161700711CD5 /* LaunchScreen.storyboard */,
+				661C5AEB1D42161900711CD5 /* Info.plist */,
+				661C5AE31D42161700711CD5 /* Billy_OCR.xcdatamodeld */,
+				661C5AD71D42161600711CD5 /* Supporting Files */,
+			);
+			path = "Billy OCR";
+			sourceTree = "<group>";
+		};
+		661C5AD71D42161600711CD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				661C5AD81D42161600711CD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		661C5AF31D42161900711CD5 /* Billy OCRTests */ = {
+			isa = PBXGroup;
+			children = (
+				661C5AF41D42161900711CD5 /* Billy_OCRTests.m */,
+				661C5AF61D42161900711CD5 /* Info.plist */,
+			);
+			path = "Billy OCRTests";
+			sourceTree = "<group>";
+		};
+		661C5AFE1D42161900711CD5 /* Billy OCRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				661C5AFF1D42161900711CD5 /* Billy_OCRUITests.m */,
+				661C5B011D42161900711CD5 /* Info.plist */,
+			);
+			path = "Billy OCRUITests";
+			sourceTree = "<group>";
+		};
+		FF40D6811D42A5A300F87C92 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF40D6821D42A79F00F87C92 /* Purchase Order-96.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661C5AD31D42161500711CD5 /* Billy OCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661C5B041D42161900711CD5 /* Build configuration list for PBXNativeTarget "Billy OCR" */;
+			buildPhases = (
+				6CF0304D3EB1D4FEE10A69F4 /* [CP] Check Pods Manifest.lock */,
+				661C5AD01D42161500711CD5 /* Sources */,
+				661C5AD11D42161500711CD5 /* Frameworks */,
+				661C5AD21D42161500711CD5 /* Resources */,
+				B95D55E3D1B85DFFB6C35D54 /* [CP] Embed Pods Frameworks */,
+				F168FEE900525B3CC77C489A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Billy OCR";
+			productName = "Billy OCR";
+			productReference = 661C5AD41D42161500711CD5 /* Billy OCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		661C5AEF1D42161900711CD5 /* Billy OCRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661C5B071D42161900711CD5 /* Build configuration list for PBXNativeTarget "Billy OCRTests" */;
+			buildPhases = (
+				10160AC19AD90EDF2A08F44A /* [CP] Check Pods Manifest.lock */,
+				661C5AEC1D42161900711CD5 /* Sources */,
+				661C5AED1D42161900711CD5 /* Frameworks */,
+				661C5AEE1D42161900711CD5 /* Resources */,
+				0D3396A770189F17EB226ECD /* [CP] Embed Pods Frameworks */,
+				6D90AD46ABC3ACFAC8CDD787 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661C5AF21D42161900711CD5 /* PBXTargetDependency */,
+			);
+			name = "Billy OCRTests";
+			productName = "Billy OCRTests";
+			productReference = 661C5AF01D42161900711CD5 /* Billy OCRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		661C5AFA1D42161900711CD5 /* Billy OCRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661C5B0A1D42161900711CD5 /* Build configuration list for PBXNativeTarget "Billy OCRUITests" */;
+			buildPhases = (
+				E7EDED0717AFD866BF7432F5 /* [CP] Check Pods Manifest.lock */,
+				661C5AF71D42161900711CD5 /* Sources */,
+				661C5AF81D42161900711CD5 /* Frameworks */,
+				661C5AF91D42161900711CD5 /* Resources */,
+				02AEFCFAEFC58CDD07E08605 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661C5AFD1D42161900711CD5 /* PBXTargetDependency */,
+			);
+			name = "Billy OCRUITests";
+			productName = "Billy OCRUITests";
+			productReference = 661C5AFB1D42161900711CD5 /* Billy OCRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661C5ACC1D42161500711CD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Etna;
+				TargetAttributes = {
+					661C5AD31D42161500711CD5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					661C5AEF1D42161900711CD5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 661C5AD31D42161500711CD5;
+					};
+					661C5AFA1D42161900711CD5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 661C5AD31D42161500711CD5;
+					};
+				};
+			};
+			buildConfigurationList = 661C5ACF1D42161500711CD5 /* Build configuration list for PBXProject "Billy OCR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661C5ACB1D42161500711CD5;
+			productRefGroup = 661C5AD51D42161500711CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661C5AD31D42161500711CD5 /* Billy OCR */,
+				661C5AEF1D42161900711CD5 /* Billy OCRTests */,
+				661C5AFA1D42161900711CD5 /* Billy OCRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661C5AD21D42161500711CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661C5AEA1D42161700711CD5 /* LaunchScreen.storyboard in Resources */,
+				661C5AE71D42161700711CD5 /* Assets.xcassets in Resources */,
+				661C5AE21D42161700711CD5 /* Main.storyboard in Resources */,
+				FF40D6831D42A79F00F87C92 /* Purchase Order-96.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661C5AEE1D42161900711CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661C5AF91D42161900711CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02AEFCFAEFC58CDD07E08605 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Billy OCRUITests/Pods-Billy OCRUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D3396A770189F17EB226ECD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Billy OCRTests/Pods-Billy OCRTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10160AC19AD90EDF2A08F44A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF0304D3EB1D4FEE10A69F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D90AD46ABC3ACFAC8CDD787 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Billy OCRTests/Pods-Billy OCRTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95D55E3D1B85DFFB6C35D54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Billy OCR/Pods-Billy OCR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7EDED0717AFD866BF7432F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F168FEE900525B3CC77C489A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Billy OCR/Pods-Billy OCR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661C5AD01D42161500711CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF40D6711D4284C500F87C92 /* ImportMenuViewController.m in Sources */,
+				661C5AE51D42161700711CD5 /* Billy_OCR.xcdatamodeld in Sources */,
+				661C5ADC1D42161700711CD5 /* AppDelegate.m in Sources */,
+				FF40D6801D4288D200F87C92 /* ShowXlsViewController.m in Sources */,
+				FF40D67A1D42877D00F87C92 /* ShareViewController.m in Sources */,
+				FF40D6561D42747D00F87C92 /* ConnectionMenuViewController.m in Sources */,
+				661C5AD91D42161600711CD5 /* main.m in Sources */,
+				FF40D6741D42865A00F87C92 /* VerificationViewController.m in Sources */,
+				FF40D6651D427F6900F87C92 /* ScanViewController.m in Sources */,
+				FF40D6591D42780200F87C92 /* SignupViewController.m in Sources */,
+				A54790271D4A50240087D55D /* IPDFCameraViewController.m in Sources */,
+				FF40D66B1D42824200F87C92 /* SigninViewController.m in Sources */,
+				FF3C97CA1D42311200495C83 /* ViewController.m in Sources */,
+				FF40D65F1D42790C00F87C92 /* SigninDolibarrViewController.m in Sources */,
+				99EFEF401D479A540095176A /* AnalyseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661C5AEC1D42161900711CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661C5AF51D42161900711CD5 /* Billy_OCRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661C5AF71D42161900711CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661C5B001D42161900711CD5 /* Billy_OCRUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		661C5AF21D42161900711CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661C5AD31D42161500711CD5 /* Billy OCR */;
+			targetProxy = 661C5AF11D42161900711CD5 /* PBXContainerItemProxy */;
+		};
+		661C5AFD1D42161900711CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661C5AD31D42161500711CD5 /* Billy OCR */;
+			targetProxy = 661C5AFC1D42161900711CD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		661C5AE01D42161700711CD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661C5AE11D42161700711CD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		661C5AE81D42161700711CD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661C5AE91D42161700711CD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661C5B021D42161900711CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		661C5B031D42161900711CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661C5B051D42161900711CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB592F170E9C0E52718FD4AA /* Pods-Billy OCR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Billy OCR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Etna.Billy-OCR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		661C5B061D42161900711CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8112EC26B92228FD5C69F98B /* Pods-Billy OCR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Billy OCR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Etna.Billy-OCR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		661C5B081D42161900711CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304856EA6A4E5DCE5A45EE24 /* Pods-Billy OCRTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Billy OCRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Etna.Billy-OCRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billy OCR.app/Billy OCR";
+			};
+			name = Debug;
+		};
+		661C5B091D42161900711CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967634FDA24ED33D40BA68FF /* Pods-Billy OCRTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Billy OCRTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Etna.Billy-OCRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billy OCR.app/Billy OCR";
+			};
+			name = Release;
+		};
+		661C5B0B1D42161900711CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C521CD9263FE2A3015B2E49 /* Pods-Billy OCRUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Billy OCRUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Etna.Billy-OCRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Billy OCR";
+			};
+			name = Debug;
+		};
+		661C5B0C1D42161900711CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0B57B748CB36EE0FF9030A /* Pods-Billy OCRUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Billy OCRUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Etna.Billy-OCRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Billy OCR";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661C5ACF1D42161500711CD5 /* Build configuration list for PBXProject "Billy OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661C5B021D42161900711CD5 /* Debug */,
+				661C5B031D42161900711CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661C5B041D42161900711CD5 /* Build configuration list for PBXNativeTarget "Billy OCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661C5B051D42161900711CD5 /* Debug */,
+				661C5B061D42161900711CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661C5B071D42161900711CD5 /* Build configuration list for PBXNativeTarget "Billy OCRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661C5B081D42161900711CD5 /* Debug */,
+				661C5B091D42161900711CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661C5B0A1D42161900711CD5 /* Build configuration list for PBXNativeTarget "Billy OCRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661C5B0B1D42161900711CD5 /* Debug */,
+				661C5B0C1D42161900711CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		661C5AE31D42161700711CD5 /* Billy_OCR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				661C5AE41D42161700711CD5 /* Billy_OCR.xcdatamodel */,
+			);
+			currentVersion = 661C5AE41D42161700711CD5 /* Billy_OCR.xcdatamodel */;
+			path = Billy_OCR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 661C5ACC1D42161500711CD5 /* Project object */;
+}
